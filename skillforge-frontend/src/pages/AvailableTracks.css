@@ -1,0 +1,40 @@
+.enroll-page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.enroll-page h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #3b82f6;
+}
+
+.enroll-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.enroll-page li {
+  background: #f9f9f9;
+  margin-bottom: 12px;
+  padding: 14px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enroll-page button {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.enroll-page button.enrolled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
